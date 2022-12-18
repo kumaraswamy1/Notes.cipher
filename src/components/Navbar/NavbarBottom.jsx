@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
-import { createElement } from "react";import { useLogin } from "../../context/AuthProvider";
+import { createElement } from "react";
+
 import { menus } from "../../utils/Navbar";
 
 export const NavbarBottom = () => {

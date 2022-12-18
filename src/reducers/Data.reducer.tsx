@@ -1,4 +1,4 @@
-import { payloadId, intialState, note, tagName } from "./Data.reducer.types";
+import { payloadId, intialState, note } from "./Data.reducer.types";
 
 export type DATA_ACTIONTYPE =
 	| { type: "ADD_NOTE"; payload: note }

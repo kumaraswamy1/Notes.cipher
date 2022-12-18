@@ -1,5 +1,5 @@
 import { createContext, useContext, useReducer } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { baseURL } from "../services/API/api.instance";
 import {
 	setupAuthExceptionHandler,

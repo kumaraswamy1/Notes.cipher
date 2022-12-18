@@ -1,11 +1,9 @@
-import { NewNote } from "../components/NewNote";
 import { NoteCard } from "../components/NoteCard";
 import { useData } from "../context/Data.provider";
 
 export const PinnedNotes = () => {
 	const {
 		dataState: { note },
-		dataDispatch,
 	} = useData();
 	const pinnedNotes = note.filter((note) => note.isPinned);
 	return (
